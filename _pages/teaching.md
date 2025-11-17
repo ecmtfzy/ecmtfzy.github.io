@@ -2,11 +2,26 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## University of Sydney
 
-Organize your courses by years, topics, or universities, however you like!
+**ECON6003 Mathematical Methods of Economic Analysis**
+*Lecturer*
+
+**ECMT6002 Econometric Applications**
+*Co-lecturer*
+
+## University of New South Wales
+
+**ECON3210 Big Data Econometrics**
+*Lecturer*
+
+**DATA9001 Fundamentals of Data Science**
+*Co-lecturer*
+
+**COMM1190 Data, Insights and Decisions**
+*Tutor*
