@@ -1,34 +1,38 @@
 ---
 ---
 
-@unpublished{yu2025generalized,
-  title={Generalized Propensity Score Weighting for Continuous Treatments},
+@unpublished{yu2026efficient,
+  title={Efficient Estimation of Continuous Treatment Effects},
   author={Yu, Fangzhou},
-  year={2025},
+  year={2026},
+  month={February},
   note={Working Paper},
-  abstract={Estimating causal effects of continuous treatments is challenging as traditional methods rely on unstable inverse density weighting. We address this challenge by extending the balancing weights framework from categorical to continuous treatments. We shift the analytical focus from derivative weights to their Riesz Representers, which allows for efficiency analysis even when derivative weights are non-smooth. We derive the optimal balancing weight that minimizes the nonparametric efficiency bound and discover that the resulting optimal estimand corresponds exactly to the projection coefficient in a Partially Linear Regression. This finding establishes a novel causal interpretation for the projection coefficient under heterogeneity and provides an efficiency-based justification for its use in empirical practice.},
+  abstract={Estimating causal effects of continuous treatments is challenging because traditional methods rely on unstable estimation of the score of the conditional treatment density. We address this instability by extending the balancing weights framework to continuous treatments. By shifting the analytical primitive to the outcome weight, we guarantee a bounded statistical functional by design and bypass density derivative estimation. Within this framework, we characterize the nonparametric efficiency bound and derive the optimal continuous balancing weights under homoskedasticity and heteroskedasticity. Under homoskedasticity, the optimally efficient estimand coincides with the population projection coefficient in a Partially Linear Regression. Under heteroskedasticity, the optimal estimands center the treatment around a precision-weighted propensity score, generalizing the overlap-weighted effect of categorical treatments. Finally, we derive the efficient influence functions and develop $\sqrt{n}$-consistent estimators based on Double/Debiased Machine Learning, providing a semiparametric toolkit for empirical practice. We illustrate the proposed estimators in an application regarding the effect of winning a lottery prize on labor supply.},
   pdf={GPS.pdf},
   bibtex_show={true},
   selected={true},
   preview={GPS.png}
 }
 
-@unpublished{lee2025sensitivity,
-  title={Sensitivity of Parameter Estimates to Potentially Misspecified Estimation Moments},
+@unpublished{lee2026sensitivity,
+  title={Sensitivity, Informativeness, and Misspecification in GMM Estimation},
   author={Lee, Seojeong and Yu, Fangzhou},
-  year={2025},
+  year={2026},
+  month={April},
   note={Working Paper},
-  abstract={},
-  bibtex_show={false},
-  selected={false},
+  abstract={This paper develops a sensitivity and informativeness framework for GMM estimators that remains valid under general misspecification of moment conditions. Sensitivity is defined through the conditional expectation of the estimator given the moments and is characterized using the influence functions of the estimator and the moments. Under misspecification, sensitivity must be evaluated at the estimator's pseudo-true probability limit, and additional sources of variation arising from the Jacobian and from estimated weight matrices become first-order relevant. We derive misspecification-robust sensitivity measures for one-step, two-step and iterated GMM estimators, and introduce an informativeness measure that quantifies the fraction of an estimator's asymptotic variance explained by sampling variation in the moments themselves. This measure provides a notion of structural efficiency under misspecification that complements standard specification tests. Applications to the automobile demand model of Berry et al. (1995) and the consumption insurance model of Blundell et al. (2008) illustrate that accounting for misspecification can substantially alter sensitivity rankings and reveal large losses in informativeness.},
+  pdf={gmm-sens.pdf},
+  bibtex_show={true},
+  selected={false}
 }
 
-@unpublished{yu2024hte,
-  title={Tests for Heterogeneous Treatment Effects},
+@unpublished{yu2026variance,
+  title={A Variance-Based Test for Heterogeneous Treatment Effects},
   author={Yu, Fangzhou},
-  year={2024},
+  year={2026},
+  month={February},
   note={Working Paper},
-  abstract={Recent advances in causal machine learning have facilitated reliable estimators of the average treatment effect (ATE) with valid statistical inference. However, applying similar techniques to conditional average treatment effect (CATE) poses significant inferential challenges. To bridge the gap between inference on the ATE and heterogeneity analysis, we propose three hypothesis tests to detect the existence of heterogeneous treatment effects. These tests inform researchers whether the treatment effect is constant across subpopulations defined by the covariates, thereby bridging the gap between inference on the ATE and the more ambitious task of fully characterizing those heterogeneities. Our tests build on three causal parameters: the projection of CATE on covariates, the variance of the CATE, and the variance difference between the potential outcomes. The test statistics are derived from the influence functions of the proposed parameters and are illustrated through Monte Carlo simulations and two empirical applications.},
+  abstract={This paper proposes a robust nonparametric hypothesis test for the existence of heterogeneous treatment effects. We focus on the variance of the Conditional Average Treatment Effect (CATE) as a natural omnibus parameter, where a non-zero variance implies the presence of relevant heterogeneity. Standard inference for this parameter faces a fundamental theoretical challenge. On one hand, evaluating variance components on the same sample leads to null degeneracy, where the asymptotic variance collapses to zero under the null hypothesis of homogeneity, invalidating standard Gaussian inference. On the other hand, decoupling the empirical processes via standard sample-splitting breaks the Neyman orthogonality of the doubly robust scores due to their nonlinear squared loss, which prevents the cancellation of first-order regularization biases. To resolve this challenge, we propose a novel Intra-Fold Sample-Splitting algorithm. By evaluating variance components on mutually disjoint subsamples while coupling them to identical out-of-fold nuisance estimators, our procedure achieves algebraic cancellation of the nuisance biases. We prove this restores consistency and asymptotic normality, and ensures Type I error control. Monte Carlo simulations demonstrate that the proposed test achieves superior size control against existing tests while maintaining high power. In an empirical application to the NSW job training program, the test detects significant heterogeneity that traditional nonparametric test fails to uncover.},
   pdf={hte-tests.pdf},
   bibtex_show={true},
   selected={false},
