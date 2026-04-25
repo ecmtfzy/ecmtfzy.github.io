@@ -10,18 +10,18 @@ nav_order: 4
 ## University of Sydney
 
 **ECON6003 Mathematical Methods of Economic Analysis**
-*Lecturer*
+_Lecturer_
 
 **ECMT6002 Econometric Applications**
-*Co-lecturer*
+_Co-lecturer_
 
 ## University of New South Wales
 
 **ECON3210 Big Data Econometrics**
-*Lecturer*
+_Lecturer_
 
 **DATA9001 Fundamentals of Data Science**
-*Co-lecturer*
+_Co-lecturer_
 
 **COMM1190 Data, Insights and Decisions**
-*Tutor*
+_Tutor_
