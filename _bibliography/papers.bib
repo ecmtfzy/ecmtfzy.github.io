@@ -1,6 +1,18 @@
 ---
 ---
 
+@unpublished{yu2026identification,
+  title={Identification and Inference with Machine-Learned Instruments},
+  author={Yu, Fangzhou},
+  year={2026},
+  month={July},
+  note={Working Paper},
+  abstract={Instrumental-variables estimation increasingly pools many or high-dimensional instruments into a single machine-learned first stage, with rich controls partialled out. The resulting estimand, the partialled-out IV coefficient built from any signal of the instruments, is a signal-weighted average of the heterogeneous effects, which gives an opaque first stage a precise structural meaning. The average is convex whenever a covariance-monotonicity condition holds, and we provide a microfoundation for that condition based on vector monotonicity. With a learned signal, however, the usual debiased moment is not Neyman-orthogonal, and its first-order bias is a drift toward the learner's own signal-weighted average, so naive inference remains valid only for that learner-dependent target. We construct a heterogeneity-robust orthogonal score that restores $\sqrt{N}$ inference on the fixed, learner-invariant target at no efficiency cost, and provide a Hausman-type diagnostic and identification-robust confidence sets.},
+  pdf={PLIV.pdf},
+  bibtex_show={true},
+  selected={false}
+}
+
 @unpublished{yu2026efficient,
   title={Efficient Estimation of Continuous Treatment Effects},
   author={Yu, Fangzhou},
@@ -21,6 +33,7 @@
   month={April},
   note={Working Paper},
   abstract={This paper develops a sensitivity and informativeness framework for GMM estimators that remains valid under general misspecification of moment conditions. Sensitivity is defined through the conditional expectation of the estimator given the moments and is characterized using the influence functions of the estimator and the moments. Under misspecification, sensitivity must be evaluated at the estimator's pseudo-true probability limit, and additional sources of variation arising from the Jacobian and from estimated weight matrices become first-order relevant. We derive misspecification-robust sensitivity measures for one-step, two-step and iterated GMM estimators, and introduce an informativeness measure that quantifies the fraction of an estimator's asymptotic variance explained by sampling variation in the moments themselves. This measure provides a notion of structural efficiency under misspecification that complements standard specification tests. Applications to the automobile demand model of Berry et al. (1995) and the consumption insurance model of Blundell et al. (2008) illustrate that accounting for misspecification can substantially alter sensitivity rankings and reveal large losses in informativeness.},
+  arxiv={2606.29833},
   bibtex_show={true},
   selected={false}
 }
