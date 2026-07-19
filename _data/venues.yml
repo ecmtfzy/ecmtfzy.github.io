@@ -1,9 +1,3 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+# Venue badges for bibliography entries that set `abbr={...}` in papers.bib.
+# Each key is the abbr value; `url` and `color` are both optional.
+# No entry currently uses abbr, so this file is intentionally empty.

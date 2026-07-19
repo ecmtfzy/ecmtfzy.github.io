@@ -187,7 +187,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -264,8 +263,8 @@ display_categories: ["notes"] # these categories will be displayed on the front 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yu]
+  first_name: [Fangzhou, F.]
 
   style: apa
   locale: en
