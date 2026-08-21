@@ -819,6 +819,26 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
+        // MDB puts `text-transform: uppercase` on every .btn. The abstract and bibtex
+        // labels are spelled out in lower case, matching the lower-case nav and headings.
+        a.abstract.btn,
+        a.bibtex.btn {
+          text-transform: none;
+        }
+        // The arXiv link shows the arXiv wordmark instead of a text label. The logo
+        // height is set in rem so the button matches the height of its text siblings.
+        a.arxiv.btn {
+          display: inline-flex;
+          align-items: center;
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+
+          svg.arxiv-logo {
+            display: block;
+            height: 1rem;
+            width: auto;
+          }
+        }
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
