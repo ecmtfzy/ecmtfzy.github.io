@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Lecturer in Economics, <a href='https://www.sydney.edu.au/arts/schools/school-of-economics.html'>University of Sydney</a>
+subtitle: Lecturer in Economics (fixed-term), <a href='https://www.sydney.edu.au/arts/schools/school-of-economics.html'>University of Sydney</a>
 
 profile:
   align: right
