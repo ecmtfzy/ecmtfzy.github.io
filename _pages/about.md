@@ -26,8 +26,8 @@ latest_posts:
 
 I am a Lecturer in Economics at the University of Sydney. I completed my PhD in Economics (2025) at UNSW Business School under the supervision of Scientia Professor [Robert Kohn](https://www.unsw.edu.au/staff/robert-kohn) and Associate Professor [Seojeong (Jay) Lee](https://sites.google.com/site/misspecifiedjay/).
 
-My research focuses on **causal inference and sensitivity analysis**, with particular emphasis on:
+My research is in **econometric theory**, with particular emphasis on:
 
-- Nonparametric estimation and inference of heterogeneous treatment effects
-- Influence functions in sensitivity analysis
-- Applications to policy evaluation and program assessment
+- Causal inference and heterogeneous treatment effects
+- Semiparametric methods and machine learning in econometrics
+- Sensitivity analysis and inference under misspecification
