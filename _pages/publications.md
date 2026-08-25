@@ -34,12 +34,13 @@ nav_order: 2
 </style>
 
 <div class="publications">
-  <!-- Publications section (sorted by year) -->
-  {% bibliography --query @*[note!=Working Paper] %}
+  <!-- Published papers, sorted by year. Partitioned on entry type rather than on
+       `note`, so that `note` is free to carry each working paper's status text. -->
+  {% bibliography --query @article %}
 
-  <!-- Working Papers section (not sorted by year) -->
+  <!-- Working papers (not sorted by year); `note` shows the status line. -->
   <h2 class="bibliography">Working Papers</h2>
   <ol class="bibliography">
-    {% bibliography --query @*[note=Working Paper] --group_by none %}
+    {% bibliography --query @unpublished --group_by none %}
   </ol>
 </div>
